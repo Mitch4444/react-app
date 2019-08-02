@@ -1,0 +1,19 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "My react app",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "proxy": "https://localhost:5000"
+  },
+  "author": "Mitchell Carlson",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
